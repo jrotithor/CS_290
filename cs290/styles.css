@@ -1,0 +1,41 @@
+/*
+Author: Jaydeep Rotithor
+date: 10/17/2015
+File Name: styles.css
+*/
+body{
+	
+	
+	background-color : #CBBDBB;
+	
+}
+#image1{
+	display: block;
+
+	
+}
+
+p{
+	
+	font-family : Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+#assignments{
+	
+	list-style-type: none;
+	position: relative;
+	right: 30px;
+	
+}
+li{
+	display: inline;
+	margin-right: 15px;
+}
+#schedule{
+	
+	border: 1px solid black;
+}
+
+td{
+	border: 1px solid black;
+}

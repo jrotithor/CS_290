@@ -1,0 +1,22 @@
+/*Author: Jaydeep Rotithor
+Date: 10/26/2015
+Filename: rps.js*/
+.img{
+	width: 100px;
+	height: 100px;
+}
+.imgs{
+	width: 700px;
+	height: 500px;
+	position: relative;
+	left: 400px;
+	top: 100px;
+}
+#slide_imgs{
+	position: relative;
+	top: 125px;
+	left: 700px;
+	width: 100px;
+	height: 50px;
+	
+}

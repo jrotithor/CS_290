@@ -1,0 +1,14 @@
+.img{ 
+	width: 100px;
+	height: 100px;
+}
+li{
+	
+	display: inline;
+	font-size: 20px;
+	margin-right: 50px;
+}
+#nav{
+	
+	background-color: #e6d3d6;
+}

@@ -1,0 +1,180 @@
+/*
+Author: Jaydeep Rotithor
+date: 10/17/2015
+File Name: styles2.css
+*/
+
+body{
+	
+	background-image: url("stucco.png");
+	
+}
+li{
+	
+	display: inline;
+}
+#info{
+	padding-left: 300px;
+    position: relative;
+	bottom: 420px;
+	
+}
+.bigbutton{
+	
+	width: 300px;
+	height: 60px;
+	font-weight: bold;
+	font-size: 20px;
+	color: blue;
+}
+#cost{
+	padding-left : 300px;
+	position: relative;
+	bottom: 400px;
+	color : red;
+}
+#art_store{
+	position: relative;
+	left: 80px;
+	bottom:30px;
+	
+	
+}
+#nav_bar{
+	padding-left: 600px;
+	background-color :#463E3F;
+	width : 400px;
+	height : 50px;
+	margin-left: 80px;
+	padding-right: 25px;
+	position: relative;
+	bottom: 5px;
+	list-style-type: none;
+	
+}
+
+#nav_bar2{
+	padding-right: 800px;
+	background-color :#FBFBFB;
+	width : 960px;
+	height : 50px;
+	margin-left: 80px;
+	padding-right: 25px;
+	position: relative;
+	bottom: 5px;
+	
+	
+}
+#buttons1{
+
+	position: relative;
+	left: 300px;
+	bottom: 400px;
+
+}
+#table1{
+
+	position: relative;
+    left: 300px;
+	bottom: 380px;
+	margin-bottom: -300px;
+}
+#main_section{
+	width : 1000px;
+	background-color: White;
+    margin-bottom: 75px;
+margin-left: 80px;
+padding-left: 25px;	
+}
+#buttons{
+	padding-left: 300px;
+	position: relative;
+	bottom: 380px;
+	
+}
+#imgs{
+	
+	border-style: solid;
+	border-color: black;
+
+}
+#copyright{
+	position: relative;
+	bottom: 15px;
+	left: 80px;
+	width: 825px;
+	background-color: #463E3F;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 200px;
+	
+}
+#buttons1{
+	border : 1px solid black;
+}
+#c2{
+	
+	color: white;
+}
+.zip{
+	position: relative;
+	right: 375px;
+	
+	
+}
+.img{
+	padding-top: 5px;
+	padding-left: 32px;
+	padding-right: 38px;
+	padding-bottom: 50px;
+	border: 1px solid black;
+	
+}
+.b1{
+position: relative;
+bottom: 55px;
+left:15px;	
+	
+	
+}
+.other{
+	margin-right: 10px;
+	
+}
+.img_links{
+	position: relative;
+	top: -55px;
+	right: 25px;
+	padding-left: 32px;
+	
+	
+}
+
+.last{
+	position: relative;
+	right: 247px;
+	
+	
+}
+.links1{
+	
+	color: white;
+	margin-right: 10px;
+	position: relative;
+	top: 15px;
+}
+.links1:hover{
+	
+	color: red;
+}
+.links2{
+	color: black;
+	margin-right: 10px;
+	position: relative;
+	top: 15px;
+	
+}
+.links2:hover{
+	
+	color: yellow;
+}

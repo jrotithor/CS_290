@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<!--Author: Jaydeep Rotithor
+date: 10/17/2015
+File Name: pageTwo.html-->
+<html>
+<head>
+<title>
+Assignment 2: Problem 2
+</title>
+
+<link rel = "stylesheet" href = "styles2.css">
+</head>
+<body>
+<ul id = "nav_bar">
+<li><a href = "#" class = "links1">My Account</a></li>
+<li><a href = "#" class = "links1">Wish List</a></li>
+<li><a href = "#" class = "links1">Shopping Cart</a></li>
+<li><a href = "#" class = "links1">Checkout</a></li>
+
+</ul>
+<h1 id = "art_store">Art Store</h1>
+<ul id = "nav_bar2">
+<li><a href = "pageOne.html" class = "links2">Home</a></li>
+<li><a href = "#" class = "links2">About Us</a></li>
+<li><a href = "#" class = "links2">Art Work</a></li>
+<li><a href = "#" class = "links2">Artists</a></li>
+
+</ul>
+
+
+
+<section id = "main_section">
+<form method = "get" action = "http://web.engr.oregonstate.edu/~schutfoj/cs290/process.php">
+<h3>Customer Registration</h3>
+<table>
+
+<tr><td><h4>1. User Info</h4></td><td></td><td></td></tr>
+<tr>
+<td>First Name</td>
+<td class = "last">Last Name</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<input type="text" name="first" size="30">
+</td>
+<td class = "last">
+<input type="text" name="last" size="30">
+</td>
+<td></td>
+</tr>
+<tr><td>Email<td><td></td></tr>
+<tr><td><input type="text" name="email" size="80" placeholder = "format for email is xxx@yyy.zzz"></td><td></td><td></td></tr>
+<tr>
+<td>Password</td>
+<td class = "last">Password Repeat</td>
+<td></td>
+</tr>
+
+<tr>
+<td>
+<input type="text" name="pass1" size="30" placeholder = "at least 8 characters">
+</td>
+<td class = "last">
+<input type="text" name="pass2" size="30"  placeholder = "at least 8 characters">
+</td>
+<td></td>
+</tr>
+<tr><td><h4>2. Location</h4></td><td></td><td></td></tr>
+<tr><td>Address</td><td></td><td></td></tr>
+<tr><td><input type="text" name="address" size="80"></td><td></td><td></td></tr>
+<tr>
+<td>
+City
+</td>
+<td class = "last">
+State
+</td>
+<td  class = "zip">
+Zip
+</td>
+</tr>
+<tr>
+<td>
+<input type="text" name="city" size="30">
+</td>
+<td class = "last">
+<input type="text" name="state" size="6">
+</td>
+<td class = "zip">
+<input type="text" name="zip" size="15"><br/>
+</td>
+</tr>
+<tr><td>
+Phone
+</td>
+<td  class = "last">
+Country
+</td>
+<td></td>
+</tr>
+<tr>
+<td><input type="text" name="phone" size="30" placeholder = "NNN-NNN-NNNN"></td>
+<td class = "last">
+<select name = "country">
+<option value = "canada">Canada</option>
+<option value = "england">England</option>
+<option value = "france">France</option>
+<option value = "italy">Italy</option>
+<option value = "mexico">Mexico</option>
+<option value = "netherlands">Netherlands</option>
+<option value = "united_states">United States</option>
+</select>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+Continent
+
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>
+<input type = "radio" name = "continent" value = "1">North America<br/>
+<input type = "radio" name = "continent" value = "2">Europe<br/>
+<input type = "radio" name = "continent" value = "3">South America<br/>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr><td><h4>3. Personal Details</h4></td><td></td><td></td></tr>
+<tr>
+<td>Birth Day</td>
+<td>Favorite Color</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<input type = "date"  name = "birthdate"/>
+</td>
+<td>
+<input type = "color" name = "favorite">
+</td>
+<td></td>
+</tr>
+<tr><td>
+Interest in Art
+</td><td></td><td></td></tr>
+<tr><td>
+  Minimal<input type="range" value="50" min="0" max="10" name = "interest">Love it!
+</td><td></td><td></td></tr>
+
+<tr><td><h4>4. All Done</h4></td><td></td><td></td></tr>
+<tr><td><input type = "checkbox" name = "accept">I Agree to the <a href = "#">Terms of this site</a></td><td></td><td></td></tr>
+<tr><td><button type = "submit" value = "Submit"> <img src = "button_ok.png" alt = "submit1">Sign me up!</button></td><td></td><td></td></tr>
+</table>
+
+</form>
+</section>
+
+<div id = "copyright">
+<p id = "c2">All images are copyright to their owners. This is just a hypothetical site (c) 2014 Copyright Art Store</p>
+</div>
+
+</body>
+</html>
